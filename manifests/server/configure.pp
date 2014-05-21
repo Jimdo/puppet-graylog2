@@ -20,6 +20,7 @@ class graylog2::server::configure (
   $plugin_dir,
   $rest_listen_uri,
   $rest_transport_uri = undef,
+  $rest_enable_cors = undef,
   $elasticsearch_config_file = undef,
   $elasticsearch_max_docs_per_index,
   $elasticsearch_max_number_of_indices,

@@ -29,6 +29,10 @@ rest_listen_uri = <%= @rest_listen_uri %>
 <% if @rest_transport_uri %>
 rest_transport_uri = <%= @rest_transport_uri %>
 <% end %>
+
+<% if @rest_enable_cors %>
+rest_enable_cors = <%= @rest_enable_cors %>
+<% end %>
 # Embedded elasticsearch configuration file
 # pay attention to the working directory of the server, maybe use an absolute path here
 #elasticsearch_config_file = /etc/graylog2-elasticsearch.yml
