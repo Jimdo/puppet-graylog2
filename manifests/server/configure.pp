@@ -12,6 +12,7 @@ class graylog2::server::configure (
   $config_file,
   $daemon_username,
   $run,
+  $max_heap_size = undef,
   $is_master,
   $node_id_file,
   $password_secret = undef,
